@@ -25,6 +25,10 @@ const setupInput = function(con) {
     if (key === 'd') {
       con.write('Move: right')
     }
+
+    if (key === 'l') {
+      con.write('Say: Hey')
+    }
   
     console.log('Pressed:', key)
   })
